@@ -1,0 +1,44 @@
+
+body{
+    background-color: #F6B165;
+    color: antiquewhite;
+    display: block;
+    margin: auto;
+}
+ h1{
+    text-align: center;
+    color: wheat;
+    }
+
+.p1{
+background-color: #D58D57;
+color: wheat;
+}
+.p2{
+background-color: #B36C49;
+color: antiquewhite;
+
+}
+.p3{
+    background-color: #914F3B;
+    color: antiquewhite;
+
+}
+.p4{
+    background-color: #6F362D;
+    color: antiquewhite;
+
+}
+.p5{
+    background-color: #4E211F;
+    color: antiquewhite;
+
+}
+.p6{
+    background-color: #2C1112;
+    color: antiquewhite;
+
+}
+footer{
+   text-align: center;
+}
