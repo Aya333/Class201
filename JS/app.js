@@ -8,8 +8,8 @@ alert("Hello there: "+Uname+ " Nice to meet you <3 ");
 
 
 //QUESTION NUMBER 1
-let q1=prompt("I love Johnny Depp ? (Yes/No)");
-if(q1.toLowerCase()==='yes' && q1.toLowerCase()!=='no'){
+let q1=prompt("I love Johnny Depp ? (Yes/No) or (y/n)").toLowerCase();
+if(q1===('yes' || q1==='y' )&& (q1!=='no'|| q1!=='n')){
     //console.log("You are CORRECT i absolutely love Johnny Depp he is the best ;)");
     alert("You are CORRECT i absolutely love Johnny Depp he is the best ;)");
     counter++;
@@ -24,8 +24,8 @@ else{
 
 
 //QUESTION NUMBER 2
-let q2=prompt("I prefer cat's over dogs ? (Yes/No)");
-if(q2.toLowerCase()==='yes' && q2.toLowerCase()!=='no'){
+let q2=prompt("I prefer cat's over dogs ? (Yes/No) or (y/n)").toLowerCase();
+if(q2===('yes' || q2==='y' )&& (q2!=='no'|| q2!=='n')){
     //console.log("That is one tricky question LOL!! although i have a cat but i love dogs wayy more than cats <3 ");
 
     alert("That is one tricky question LOL!! although i have a cat but i love dogs wayy more than cats <3 ");
@@ -44,8 +44,8 @@ else {
 
 
 //QUESTION NUMBER 3
-let q3=prompt("I'm into philosphy ? (Yes/No)");
-if(q3.toUpperCase()==='YES' && q3.toUpperCase()!=='NO'){
+let q3=prompt("I'm into philosphy ? (Yes/No) or (y/n)").toUpperCase;
+if(q3===('YES' || q3==='Y' )&& (q3!=='NO'|| q3!=='N')){
    // console.log("CORRECT i am not only into it i absolutely adore philosphy it is my brain treat <3");
 
     alert("CORRECT i am not only into it i absolutely adore philosphy it is my brain treat <3");
@@ -63,8 +63,8 @@ else {
 
 
 //QUESTION NUMBER 4
-let q4=prompt("I love chocolate ? (Yes/No)");
-if(q4.toUpperCase()==='YES' && q4.toUpperCase()!=='NO'){
+let q4=prompt("I love chocolate ? (Yes/No) or (y/n)").toUpperCase();
+if(q4===('YES' || q4==='Y' )&& (q4!=='NO'|| q4!=='N')){
    // console.log("OH NO! although it might be shocking to you as most girls love chocolate me on the other hand don't like it as much!! ");
 
     alert("OH NO! although it might be shocking to you as most girls love chocolate me on the other hand don't like it as much!! ");
@@ -82,8 +82,8 @@ else{
 
 
 //QUESTION NUMBER 5
-let q5=prompt("Travelling the world is not on my bucket list ? (Yes/No)");
-if(q5.toLowerCase()==='yes' && q5.toLowerCase()!=='no'){
+let q5=prompt("Travelling the world is not on my bucket list ? (Yes/No) or (y/n)").toLowerCase();
+if(q5===('yes' || q2==='y' )&& (q2!=='no'|| q2!=='n')){
     //console.log("TRUE TRUE TRUE i mean who doesn't im such an adventurous soul im all about exploring and learning about the different cultures all over the world <3 ");
 
     alert("TRUE TRUE TRUE i mean who doesn't im such an adventurous soul im all about exploring and learning about the different cultures all over the world <3 ");
