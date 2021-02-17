@@ -1,5 +1,5 @@
 let counter=0;
-let i=0;
+
 let Uname=prompt("Enter your name so after that i will ask you a few questions to guess a few informations about me");
 //console.log("Hello"+Uname+ "Nice to meet you ");
 alert("Hello there: "+Uname+ " Nice to meet you <3 ");
@@ -83,7 +83,7 @@ else{
 
 //QUESTION NUMBER 5
 let q5=prompt("Travelling the world is not on my bucket list ? (Yes/No) or (y/n)").toLowerCase();
-if(q5===('yes' || q2==='y' )&& (q2!=='no'|| q2!=='n')){
+if(q5===('yes' || q2==='y' ) && (q2!=='no'|| q2!=='n')){
     //console.log("TRUE TRUE TRUE i mean who doesn't im such an adventurous soul im all about exploring and learning about the different cultures all over the world <3 ");
 
     alert("TRUE TRUE TRUE i mean who doesn't im such an adventurous soul im all about exploring and learning about the different cultures all over the world <3 ");
@@ -124,6 +124,37 @@ let q6=prompt("I have a number on my mind can you guess it????? HINT: (The numbe
   alert("Saddly you have run out of attempts. Don't be upset though you can refresh the page to tryout again and your score = "+counter);
   }
 //-----------------------------------------------------------------------------------
+
+let q7;
+
+
+let arr=['japan', 'china','brazil','italy','sweden'];
+q7 = prompt("I am very artistic and i have a huge interest in fashion type inn which countries street style fit my aesthetic??").toLowerCase();
+
+for(let i=0; i<6;i++){
+
+    for(let j=0; j<arr.length; j++){
+     if (q7[j]===arr[j]){
+       alert("You are absolutely right " + arr[j]+" it is one of my favorites");
+       break;
+       counter ++;
+     }
+     else{
+         alert("OOPS!! not quite right try again ");
+         q7 = prompt("I am very artistic and i have a huge interest in fashion type inn which countries street style fit my aesthetic??");
+       continue;
+     }
+     
+    }
+
+   if(arr[i]>=6){
+       alert("You have run out of attempts please tryagain later :( ");
+       break;
+   }
+}
+
+
+
 //console.log("It was truly a pleasure meeting you "+Uname+ "Goddbye for now!! hoping to see you in my future works");
 alert("It was truly a pleasure meeting you "+Uname+ " Goodbye for now!! hoping to see you in my future works");
 
