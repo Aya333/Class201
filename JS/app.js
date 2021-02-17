@@ -44,8 +44,8 @@ else {
 
 
 //QUESTION NUMBER 3
-let q3=prompt("I'm into philosphy ? (Yes/No) or (y/n)").toUpperCase;
-if(q3===('YES' || q3==='Y' )&& (q3!=='NO'|| q3!=='N')){
+let q3=prompt("I'm into philosphy ? (Yes/No) or (y/n)").toUpperCase();
+if(q3 === ('YES' || q3==='Y' )&& (q3!=='NO'|| q3!=='N')){
    // console.log("CORRECT i am not only into it i absolutely adore philosphy it is my brain treat <3");
 
     alert("CORRECT i am not only into it i absolutely adore philosphy it is my brain treat <3");
@@ -132,9 +132,13 @@ let arr=['japan', 'china','brazil','italy','sweden'];
 q7 = prompt("I am very artistic and i have a huge interest in fashion type inn which countries street style fit my aesthetic??").toLowerCase();
 
 for(let i=0; i<6;i++){
+    if(arr[i]>=6){
+        alert("You have run out of attempts please try again later :( ");
+        break;
+    }
 
     for(let j=0; j<arr.length; j++){
-     if (q7[j]===arr[j]){
+     if (q7 === arr[j]){
        alert("You are absolutely right " + arr[j]+" it is one of my favorites");
        break;
        counter ++;
@@ -147,10 +151,7 @@ for(let i=0; i<6;i++){
      
     }
 
-   if(arr[i]>=6){
-       alert("You have run out of attempts please tryagain later :( ");
-       break;
-   }
+   break;
 }
 
 
