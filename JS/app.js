@@ -135,11 +135,13 @@ else {
 let q4 = prompt('I love chocolate ? (Yes/No) or (y/n)').toUpperCase();
 if (q4 === ('YES' || q4 === 'Y') && (q4 !== 'NO' || q4 !== 'N')) {
 
-
   alert('OH NO! although it might be shocking to you as most girls love chocolate me on the other hand don\'t like it as much!! ');
 }
+else if (q4 === ''){
+    alert('Enter a (Yes or no)/(y or n)');
+    q4 = prompt('I love chocolate ? (Yes/No) or (y/n)').toUpperCase();
+  }
 else {
-
   alert('YASSS! you are right i don\'t like chocolate as much i preffer Vanilla and Caramel flavoured sweets <3');
   counter++;
 
@@ -151,7 +153,7 @@ else {
 
 //QUESTION NUMBER 5
 let q5 = prompt('Travelling the world is not on my bucket list ? (Yes/No) or (y/n)').toLowerCase();
-if (q5 === ('yes' || q2 === 'y') && (q2 !== 'no' || q2 !== 'n')) {
+if (q5 === ('yes' || q5 === 'y') && (q5 !== 'no' || q5 !== 'n')) {
 
   alert('TRUE TRUE TRUE i mean who doesn\'t im such an adventurous soul im all about exploring and learning about the different cultures all over the world <3 ');
   counter++;
